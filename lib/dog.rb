@@ -7,7 +7,6 @@ class Dog
   end
 
   def name
-    binding.pry
     return "#{@name}"
   end
 
