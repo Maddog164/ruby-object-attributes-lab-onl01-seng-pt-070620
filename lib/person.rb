@@ -7,5 +7,5 @@ class Person
   def name
     return "#{@name}"
   end
-  
+
 end
