@@ -5,7 +5,7 @@ class Dog
   end
 
   def name(name)
-    "#{name}"
+    puts "#{name}"
   end
 
 end
