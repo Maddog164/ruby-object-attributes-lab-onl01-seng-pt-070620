@@ -8,7 +8,7 @@ class Dog
 
   def name
     binding.pry
-    puts "#{@name}"
+    return "#{@name}"
   end
 
 end
