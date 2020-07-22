@@ -1,3 +1,5 @@
+require 'pry'
+
 class Dog
 
   def name= (name)
@@ -5,6 +7,7 @@ class Dog
   end
 
   def name
+    binding.pry
     puts "#{@name}"
   end
 
